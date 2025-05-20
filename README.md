@@ -25,18 +25,12 @@ Este projeto demonstra a aplicação de Programação Linear para otimizar proce
 - \( y \) = Quantity of Product B / Quantidade do Produto B
 
 ### Objective Function / Função Objetivo
-\[
-\max Z = 40x + 30y
-\]
+max Z = 40x + 30y
 
 ### Constraints / Restrições
-\[
-\begin{cases}
-2x + y \leq 100 & \text{(Machine hours/Horas de máquina)} \\
-3x + 2y \leq 120 & \text{(Raw material/Matéria-prima)} \\
-x \geq 0, y \geq 0 & \text{(Non-negativity/Não-negatividade)}
-\end{cases}
-\]
+- 2x + y ≤ 100 (Machine hours/Horas de máquina)
+- 3x + 2y ≤ 120 (Raw material/Matéria-prima)
+- x ≥ 0, y ≥ 0 (Non-negativity/Não-negatividade)
 
 ## Optimal Solution / Solução Ótima
 - **Product A / Produto A**: 0 units / unidades
